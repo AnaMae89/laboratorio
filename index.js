@@ -4,7 +4,7 @@ function validarName() {
     var errorName = document.getElementById('errorName');
 
     if (nameField.value == 0) {
-        errorName.innerHTML = "Por favor rellene el campo";
+        errorName.innerHTML = "Rellene este campo";
         nameField.classList.add("novalido");
         nameField.classList.add("errorIcon");
         return false;
@@ -29,7 +29,7 @@ function validarEmail() {
     var errorEmail = document.getElementById('errorEmail');
 
     if (emailField.value == 0) {
-        errorEmail.innerHTML = "Por favor rellene el campo";
+        errorEmail.innerHTML = "Rellene este campo";
         emailField.classList.add("novalido");
         emailField.classList.add("errorIcon");
         return false;
@@ -54,7 +54,7 @@ function validarPassword() {
     var errorPassword = document.getElementById('errorPassword');
 
     if (passwordField.value == 0) {
-        errorPassword.innerHTML = "Por favor rellene el campo";
+        errorPassword.innerHTML = "Rellene este campo";
         passwordField.classList.add("novalido");
         passwordField.classList.add("errorIcon");
         return false;
@@ -78,7 +78,7 @@ function validarConfirmacion() {
     var errorConfirm = document.getElementById('errorConfirmacion');
 
     if (confirmField.value == 0) {
-        errorConfirm.innerHTML = "Por favor rellene el campo";
+        errorConfirm.innerHTML = "Rellene este campo";
         confirmField.classList.add("invalid");
         confirmField.classList.add("errorIcon");
         return false;
